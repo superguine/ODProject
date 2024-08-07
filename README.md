@@ -4,4 +4,4 @@
 3. Then have to update the " Changelog.md " file (available in repo) by adding a new entry containing 'things updated'/ 'fixed things','your name','date'.
   like: ``` |  < things updated/fix > | <Details of the Update/fix >        |07.08.2024| ```
   <br>
-_your'e most welcome for any suggestion_
+_ your'e most welcome for any suggestion _
