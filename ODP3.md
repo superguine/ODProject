@@ -7,4 +7,4 @@
 > **according to my experience**, the limited time is ~ 3-4 hrs. Though the limit changes dynamically. But it'll be accessable again after 22-24 hrs.
 
 > [!TIP]
-> try to stay disconnected when you don't want to run cells. You can edit cells by staying disconnected. 
+> When you don't need to run cells, try to stay disconnected. You can still edit the cells while remaining disconnected. 
