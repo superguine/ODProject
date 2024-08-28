@@ -7,6 +7,5 @@
 | <sl_no> | <things updated/fix> | <Your_name > | <Details of the Update/fix > | <Date> | <Commit message> |
 ```
   <br>
+  <br>
 *your'e most welcome for any suggestion*
-<br>
-Here's the [Changelog](https://github.com/superguine/ODProject/blob/main/Changelog.md)
