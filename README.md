@@ -3,7 +3,7 @@
 2. After updating this repo with updated files, the commimt message should be " <slno_date-of-change> "   <br> like: ```1_07082024```
 3. Then have to update the " Changelog.md " file (available in repo) by adding a new entry containing 'Sl.no.','things updated /fixed','your name','Details of the Update/fix','date','Commit message'.  <br> Like:
    ```
-    |<sl_no>|   <things updated/fix>  |<Your_name >| <Details of the Update/fix > | 07.08.2024 |1_07082024 | 
+    |<sl_no>|   <things updated/fix>  |<Your_name >| <Details of the Update/fix > | <Date> |<Commit message> | 
   
   <br>
 *your'e most welcome for any suggestion*
