@@ -3,5 +3,5 @@
 |--------|------------------------------|------------------------|-------------------------------------|----------|----------------|
 |  1     |  ODP3.ipynb       |     Shawon Roy         | added the file which contains script for initial installation of TwnsorFlow    |26.08.2024|1_26082024|
 |2       |  Train.ipynb |Shawon Roy| Organised total notebook & added a section for data downloading,extracting, splitting.        |28.08.2024|2_28082024| 
-| 3 | collectimg3 | Ishika Lohar | The file is used to collect images  in local machines. | 01_09_2024 |  3_01092024 |
+| 3 | collectimg3 | Ishika Lohar | The file is used to collect images  in local machines. | 01.09.2024 |  3_01092024 |
 
