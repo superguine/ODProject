@@ -6,4 +6,5 @@
 | 3 | collectimg3.py| Ishika Lohar | The file is used to collect images  in local machines. | 01.09.2024 |  3_01092024 |
 | 4 | Train.ipynb | Shawon Roy|  Created a section for data downloading,extracting, splitting. | 9.9.2024 | 4_09092024 |
 | 5 | Download link generator.py | Shreya Dey | It'll automatically capture & save images to a specific destination. | 11.09.2024 | 5_11092024 |
+|6|collectimg3.py|Shawon Roy| fixed timing issues |25.09.2024|6_25092024|
 
