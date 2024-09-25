@@ -17,7 +17,7 @@ def install_opencv():
             # Install OpenCV using pip
             subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'opencv-python'])
             print("OpenCV has been installed successfully.")
-
+            imp = 1
             # Attempt to import again after installation
             import cv2
             print("OpenCV is installed. Version:", cv2.__version__)
@@ -25,7 +25,7 @@ def install_opencv():
             print("Failed to install OpenCV. Please try installing it manually.")
 
 
-if imp == 0:
+if imp == 1:
     import cv2
 else:
     install_opencv()
@@ -36,7 +36,8 @@ else:
 '''
 ##############################################################################
 # Change the camera index if needed.  0 for default laptop webcam.
-cam_index = 0
+cam_index = 1
+
 
 #-------------------------------------------------------------------
 '''                                                                        
@@ -64,14 +65,18 @@ main_dir = 'testcollect'
 '''
 # ------------------------------------------------------------------
 # Labels / objets /class  (eg: ['obj1','obj2']  )
-labels = ['test1']
+labels = ['mango_leaf_e']
 
-# ------------------------------------------------------------------                                                                                    ##
+# ------------------------------------------------------------------
 # number of images per object /class
-number_imgs = 5
+number_imgs = 3
+
 ##
 ##
 ##############################################################################
+
+
+
 collected_imgs = 'collected_imgs'
 
 if len(labels) > 1:
@@ -99,7 +104,7 @@ for label in labels:
         os.makedirs(label_path)
 
     print('Collecting images for {}'.format(label))
-    print('You will get 4 sec after taking each image for {}'.format(label))
+    print('You will get 6 sec after taking each image for {}'.format(label))
 
     cap = cv2.VideoCapture(cam_index)
     time.sleep(6)
@@ -108,10 +113,11 @@ for label in labels:
     for imgnum in range(number_imgs):
         '''
         if first:
-            print('Loading camera..')
+            print('Loading camera...')
             time.sleep(2)
             first=False
         '''
+        time.sleep(6) # time between taking new image.
         print('Collecting image {}'.format(imgnum + 1))
         # cap = cv2.VideoCapture(0)  # 0 is usually the default camera index
         time.sleep(1)
@@ -130,7 +136,7 @@ for label in labels:
         counter += 1
         print("DONE")
         # cap.release()
-        time.sleep(4)
+        #time.sleep(3)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     cap.release()
