@@ -7,4 +7,5 @@
 | 4 | Train.ipynb | Shawon Roy|  Created a section for data downloading,extracting, splitting. | 9.9.2024 | 4_09092024 |
 | 5 | Download link generator.py | Shreya Dey | It'll automatically capture & save images to a specific destination. | 11.09.2024 | 5_11092024 |
 |6|collectimg3.py|Shawon Roy| fixed timing issues |25.09.2024|6_25092024|
+|7|Train.ipynb|Shawon Roy| added CUDA setup lines| 01.12.2024 |7_01122024|
 
