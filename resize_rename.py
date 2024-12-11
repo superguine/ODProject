@@ -47,3 +47,5 @@ def resize_images_to_fixed_aspect_ratio(input_folder, output_folder, target_widt
 input_folder = 'D:/ODP2/image_collection/collected_imgs/3-12-24-R'
 output_folder = 'D:/ODP2/image_collection/collected_imgs/Resized'
 resize_images_to_fixed_aspect_ratio(input_folder, output_folder)
+
+print ("\n \t\t\tDone")
