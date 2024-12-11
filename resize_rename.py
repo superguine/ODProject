@@ -34,7 +34,7 @@ def resize_images_to_fixed_aspect_ratio(input_folder, output_folder, target_widt
             new_image.paste(image, (x_offset, y_offset))
 
             # Generate sequential name
-            new_filename = f"IMG_b{counter:03d}.jpg"
+            new_filename = f"IMG_{counter:03d}.jpg"      # Here You can Adjust the required file name format after resized & renamed
             counter += 1
 
             # Save the padded image to the output folder
@@ -48,4 +48,4 @@ input_folder = 'D:/ODP2/image_collection/collected_imgs/3-12-24-R'
 output_folder = 'D:/ODP2/image_collection/collected_imgs/Resized'
 resize_images_to_fixed_aspect_ratio(input_folder, output_folder)
 
-print ("\n \t\t\tDone")
+print ("\n \t\t\tDone") # Tell when all images are resized,renamed and saved 
