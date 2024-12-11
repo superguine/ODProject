@@ -1,0 +1,9 @@
+Fresh
+EatenByInsects
+Dry
+PartiallyDry
+Wrinkled
+NewLeaf
+SmallNewLeaf
+SpotMarks
+
