@@ -8,3 +8,4 @@
 | 5 | Download link generator.py | Shreya Dey | Used to create downloadlink to save images in local machines. | 11.09.2024 | 5_11092024 |
 |6|collectimg3.py|Shawon Roy| fixed timing issues |25.09.2024|6_25092024|
 |7|Train.ipynb|Shawon Roy| added CUDA setup lines| 01.12.2024 |7_01122024|
+|8|Train_3.3.1.2.3.ipynb|Shawon Roy| fixed compatibility issues & redesigned entier script| 28.02.2025|8_28022025| 
