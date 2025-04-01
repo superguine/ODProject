@@ -5,6 +5,7 @@ PartiallyDry
 Wrinkled
 NewLeaf
 SmallNewLeaf
-SpotMarks
 bug_eggs
 yellowed 
+
+["SpotMarks" is removed ]
